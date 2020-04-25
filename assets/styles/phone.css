@@ -1,0 +1,34 @@
+.main-menu_large {
+    display: none;
+}
+
+.main-menu_phone {
+    display: flex;
+    height: 100%;
+    min-width: 140px;
+}
+
+.main-menu__buttons {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+.main-menu_phone .main-menu__list {
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(100%);
+    border: 1px solid;
+    width: 100%;
+    height: 92px;
+    transition: height .3s ease-out, opacity .2s ease-out;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+.main-menu_phone .main-menu__list_hidden {
+    height: 0;
+    opacity: 0;
+}

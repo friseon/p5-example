@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/common.css">
+    <link rel="stylesheet" media="screen and (min-width: 1367px)" href="./assets/styles/desktop.css">
+    <link rel="stylesheet" media="screen and (max-width: 1366px)" href="./assets/styles/pad.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="./assets/styles/phone.css">
+    <title>Home-work</title>
+</head>
+
+<body>
+    <div class="main">
+        <header class="main__header">
+            <div class="main__name">
+                <h1 class="name">Name</h1>
+            </div>
+            <div class="main__menu">
+                <div class="main-menu main-menu_large">
+                    <ul class="main-menu__list">
+                        <li class="main-menu__item">menu 1</li>
+                        <li class="main-menu__item">menu 2</li>
+                        <li class="main-menu__item">menu 3</li>
+                    </ul>
+                </div>
+                <div class="main-menu main-menu_phone">
+                    <div class="main-menu__buttons">
+                        <button class="main-menu__button">menu</button>
+                    </div>
+                    <ul class="main-menu__list main-menu__list_hidden">
+                        <li class="main-menu__item">menu 1</li>
+                        <li class="main-menu__item">menu 2</li>
+                        <li class="main-menu__item">menu 3</li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="main__content">
+            <div id="canvas"></div>
+        </div>
+        <footer class="main__footer">
+            <div class="main__group">
+                <h4>Group</h4>
+            </div>
+            <div class="main__date">
+                <div class="date-now"></div>
+            </div>
+        </footer>
+    </div>
+    <script src="./assets/js/p5.min.js"></script>
+    <script src="./assets/js/sketch.js"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
